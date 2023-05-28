@@ -5,11 +5,13 @@ import App from './App';
 import { configureStore } from '@reduxjs/toolkit';
 import { Provider } from 'react-redux';
 import userReducer from './Reducers/userReducer';
+import themeReducer from './Reducers/themeReducer';
 
 
 const store = configureStore({
 reducer:{
-    userInfo : userReducer
+    userInfo : userReducer,
+    themeInfo : themeReducer
 }
 })
 

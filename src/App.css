@@ -1,6 +1,6 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 .nav-container{
   margin : 27px;
@@ -34,4 +34,23 @@ input{
 .login-btn{
   padding: 7px;
   width: max-content;
+}
+
+.dark-theme{
+  background-color: black;
+  color: white;
+}
+
+.light-theme{
+  background-color: white;
+  color: black;
+
+}
+
+.theme-btn{
+ border : none;
+ padding: 10px;
+ font-size: 25px;
+ margin-left : 50% !important;
+
 }
